@@ -1,0 +1,12 @@
+{
+    "name": "PROJECT_NAME",
+    "version": "0.0",
+    "description": "Version 0.1 of Impact fellowship project",
+    "manifest_version": 2,
+    "author": "Regina Rex",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      }
+}
