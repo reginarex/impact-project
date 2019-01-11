@@ -1,0 +1,35 @@
+{
+  "name": "impact-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inject.js",
+  "scripts": {
+    "hot": "webpack --mode=development --watch",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reginarex/impact-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reginarex/impact-project/issues"
+  },
+  "homepage": "https://github.com/reginarex/impact-project#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": "^16.7.0",
+    "react-dock": "^0.2.4",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-chrome-extension-reloader": "^1.1.1",
+    "webpack-cli": "^3.2.1"
+  }
+}
